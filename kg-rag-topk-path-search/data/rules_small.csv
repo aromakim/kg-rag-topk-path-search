@@ -1,0 +1,22 @@
+sentence,source,target,domain,type,is_answer_path
+비가 온다 이면 땅이 젖는다,비가 온다,땅이 젖는다,weather,answer,1
+땅이 젖는다 이면 운동장이 미끄럽다,땅이 젖는다,운동장이 미끄럽다,weather,answer,1
+운동장이 미끄럽다 이면 체육 수업이 취소된다,운동장이 미끄럽다,체육 수업이 취소된다,weather,answer,1
+비가 온다 이면 우산을 쓴다,비가 온다,우산을 쓴다,weather,distractor,0
+비가 온다 이면 버스가 늦어진다,비가 온다,버스가 늦어진다,weather,distractor,0
+비가 온다 이면 신발이 젖는다,비가 온다,신발이 젖는다,weather,distractor,0
+우산을 쓴다 이면 시야가 좁아진다,우산을 쓴다,시야가 좁아진다,weather,cycle,0
+시야가 좁아진다 이면 주의가 필요하다,시야가 좁아진다,주의가 필요하다,weather,cycle,0
+주의가 필요하다 이면 우산을 쓴다,주의가 필요하다,우산을 쓴다,weather,cycle,0
+눈이 온다 이면 도로가 얼어붙는다,눈이 온다,도로가 얼어붙는다,traffic,answer,1
+도로가 얼어붙는다 이면 차가 미끄러진다,도로가 얼어붙는다,차가 미끄러진다,traffic,answer,1
+차가 미끄러진다 이면 사고 위험이 증가한다,차가 미끄러진다,사고 위험이 증가한다,traffic,answer,1
+눈이 온다 이면 장갑을 낀다,눈이 온다,장갑을 낀다,traffic,distractor,0
+눈이 온다 이면 풍경이 예쁘다,눈이 온다,풍경이 예쁘다,traffic,distractor,0
+장갑을 낀다 이면 손이 따뜻하다,장갑을 낀다,손이 따뜻하다,traffic,distractor,0
+수면이 부족하다 이면 피로가 쌓인다,수면이 부족하다,피로가 쌓인다,health,answer,1
+피로가 쌓인다 이면 집중력이 떨어진다,피로가 쌓인다,집중력이 떨어진다,health,answer,1
+집중력이 떨어진다 이면 실수가 늘어난다,집중력이 떨어진다,실수가 늘어난다,health,answer,1
+수면이 부족하다 이면 커피를 마신다,수면이 부족하다,커피를 마신다,health,distractor,0
+커피를 마신다 이면 잠이 줄어든다,커피를 마신다,잠이 줄어든다,health,cycle,0
+잠이 줄어든다 이면 수면이 부족하다,잠이 줄어든다,수면이 부족하다,health,cycle,0
