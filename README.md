@@ -1,6 +1,6 @@
 # KG-RAG Top-K Path Search Simulation
 
-자료구조 관점에서 **RAG의 Top-K 검색 제한이 Knowledge Graph 기반 다중 홉 연역 추론에 어떤 영향을 주는지** 실험한 프로젝트입니다.
+자료구조개론 과제로, **RAG의 Top-K 검색 제한이 Knowledge Graph 기반 다중 홉 연역 추론에 어떤 영향을 주는지** 실험한 프로젝트입니다.
 
 자연어 규칙을 `A → B` 형태의 방향 edge로 변환하고, 이를 adjacency list 기반 Knowledge Graph로 구성한 뒤, BFS를 이용해 시작 노드에서 목표 노드까지의 경로가 존재하는지 확인합니다.
 
@@ -63,7 +63,7 @@ medium dataset 기준 결과입니다.
 │   ├── selected_edge_count_by_k.png
 │   └── visited_count_by_k.png
 ├── docs/
-│   └── report.pdf           # 선택 사항: 보고서 PDF
+│   └── report.pdf           # 보고서 pdf
 └── requirements.txt
 ```
 
